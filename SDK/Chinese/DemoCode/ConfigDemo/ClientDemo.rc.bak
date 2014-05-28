@@ -1,0 +1,730 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ClientDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ClientDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ClientDemo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ClientDemo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENTDEMO_DIALOG DIALOGEX 0, 0, 703, 473
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ClientDemo2"
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Desktop.Split",IDC_STATIC_CMBWND,7,457,44,12
+    COMBOBOX        IDC_COMBOWNDNUM,53,455,51,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "DeviceManage.DevList",IDC_BTN_DEVICE,549,390,63,18,
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Title.PtzControl",IDC_BTN_PTZ,615,390,64,18,BS_VCENTER | 
+                    BS_FLAT
+    PUSHBUTTON      "Title.ImageConfig",IDC_BTN_COLOR,549,411,63,18,
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Title.PlayBack",IDC_BTN_PLAYBACK,615,411,64,18,
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "ConfigEncode.Snap",IDC_BTN_CAPTURE,108,454,50,14
+    PUSHBUTTON      "Desktop.LocalRecord",IDC_BTN_SAVE,159,454,50,14
+    PUSHBUTTON      "Desktop.NetKeyboard",IDC_BTN_DEV_KEYBOARD,549,433,64,17,
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Desktop.NetAlarm",IDC_BTN_NET_ALARM,615,432,63,18,
+                    BS_VCENTER | BS_FLAT
+    CONTROL         "desktop.Osd",IDC_CHECK_OSD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,550,458,66,10
+END
+
+IDD_CONFIG_DLG DIALOG DISCARDABLE  0, 0, 262, 297
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_DEVICE_NAME,72,136,77,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OneClick.OK",IDOK,128,199,50,14
+    PUSHBUTTON      "OneClick.Cancel",IDCANCEL,191,199,50,14
+    LTEXT           "Desktop.DevName",IDC_STATIC,20,138,50,11
+    LTEXT           "DeviceManage.IPAddress",IDC_STATIC,20,161,50,8
+    EDITTEXT        IDC_EDIT_PORT,200,157,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "DeviceManage.PortNum",IDC_STATIC,162,159,36,8
+    EDITTEXT        IDC_EDIT_USERNAME,72,177,78,14,ES_AUTOHSCROLL
+    LTEXT           "DeviceManage.UserName",IDC_STATIC,20,181,49,8
+    LTEXT           "DeviceManage.Password",IDC_STATIC,162,181,34,8
+    EDITTEXT        IDC_EDIT_PSW,200,177,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "DeviceManage.TotalChn",IDC_STATIC,162,138,32,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_TOTALCHANNEL,200,136,40,14,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_SVR,72,158,77,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Upgrade.EditDevice",IDC_BTN_Setting,190,102,50,14
+    CONTROL         "List2",IDC_LIST_Upgrade,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,21,8,218,86
+    PUSHBUTTON      "Upgrade.IPSearch",IDC_BTN_Search,133,102,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,16,4,228,115
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,16,124,229,163
+    LTEXT           "ConfigNet.HostIP",IDC_STATIC,27,228,45,8
+    LTEXT           "ConfigNet.HostPort",IDC_STATIC,27,248,44,8
+    LTEXT           "ConfigNet.DeviceID",IDC_STATIC,27,268,45,8
+    EDITTEXT        IDC_EDIT_HOSTIP,82,225,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HOSTPORT,82,244,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SERIALID,82,263,88,14,ES_AUTOHSCROLL
+    CONTROL         "List2",IDC_LIST_DDNS_DEV,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | NOT WS_VISIBLE | WS_BORDER | WS_TABSTOP,
+                    55,108,19,6
+    PUSHBUTTON      "ConfigNet.GetInfo",IDC_BTN_GETINFO,34,99,71,7,NOT 
+                    WS_VISIBLE
+    CONTROL         "Desktop.IPAddr",IDC_CHECK_IP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,26,200,43,15
+    CONTROL         "DeviceManage.SerialID",IDC_CHECK_SerialID,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,79,200,43,15
+END
+
+IDD_DEVICE_DLG DIALOGEX 0, 0, 129, 314
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASLINES | 
+                    TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,7,7,115,300
+END
+
+IDD_PTZ_DLG DIALOGEX 0, 0, 122, 282
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "PtzControl.PtzControl",IDC_STATIC4,7,7,108,268
+    LTEXT           "PTZ",IDC_STATIC5,52,48,17,9
+    PUSHBUTTON      "PtzControl.Left",IDC_BUTTONLEFT,23,47,20,11,BS_FLAT
+    PUSHBUTTON      "PtzControl.Down",IDC_BUTTONDOWN,51,64,20,11,BS_FLAT
+    PUSHBUTTON      "PtzControl.Up",IDC_BUTTONUP,51,28,20,11,BS_FLAT
+    PUSHBUTTON      "PtzControl.Right",IDC_BUTTONRIGHT,79,47,20,11,BS_FLAT
+    LTEXT           "PtzControl.Zoom",IDC_STATIC6,53,85,17,9
+    LTEXT           "PtzControl.Focus",IDC_STATIC7,53,108,17,9
+    LTEXT           "PtzControl.Iris",IDC_STATIC8,53,128,17,9
+    PUSHBUTTON      "+",IDC_BUTTONTJLEFT,23,84,20,11,BS_FLAT
+    PUSHBUTTON      "+",IDC_BUTTONJJLEFT,23,106,20,11,BS_FLAT
+    PUSHBUTTON      "+",IDC_BUTTONGQLEFT,23,126,20,12,BS_FLAT
+    PUSHBUTTON      "-",IDC_BUTTONTJRIGHT,81,84,20,11,BS_FLAT
+    PUSHBUTTON      "-",IDC_BUTTONJJRIGHT,81,106,20,11,BS_FLAT
+    PUSHBUTTON      "-",IDC_BUTTONGQRIGHT,81,126,20,12,BS_FLAT
+    PUSHBUTTON      "PtzControl.LeftTop",IDC_BUTTONLEFTUP,23,28,20,11,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.RightTop",IDC_BUTTONRIGHTUP,79,28,20,11,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.LeftDown",IDC_BUTTONLEFTDOWN,23,64,20,11,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.RightDown",IDC_BUTTONRIGHTDOWN,79,64,20,11,
+                    BS_FLAT
+    LTEXT           "PtzControl.Preset",IDC_STATIC,23,148,44,8
+    COMBOBOX        IDC_COMBO1,73,148,28,39,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "PtzControl.UsePresent",IDC_UsePresent,23,166,22,14,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.AddPresent",IDC_ADDPRESENT,51,166,22,14,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.DeletePresent",IDC_PRESENTDELETE,79,166,22,
+                    14,BS_FLAT
+    LTEXT           "PtzControl.Cruise",IDC_STATIC,23,189,38,8
+    COMBOBOX        IDC_COMBO2,73,189,28,44,CBS_DROPDOWNLIST | WS_VSCROLL
+    PUSHBUTTON      "PtzControl.CruiseEdit",IDC_CRUISEEDIT,79,205,22,14,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.CruisePlay",IDC_CRUISEPLAY,23,205,22,14,
+                    BS_FLAT
+    PUSHBUTTON      "PtzControl.CruiseStop",IDC_CRUISESTOP,51,205,22,14,
+                    BS_FLAT
+END
+
+IDD_COLOR_DLG DIALOG DISCARDABLE  0, 0, 119, 139
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC9,4,3,108,129
+    LTEXT           "ConfigEncode.Brightness",IDC_STATIC10,8,12,21,10
+    LTEXT           "ConfigEncode.Contrast",IDC_STATIC11,8,32,27,10
+    LTEXT           "ConfigEncode.Saturation",IDC_STATIC12,8,52,28,10
+    LTEXT           "ConfigEncode.Hue",IDC_STATIC13,8,72,21,10
+    LTEXT           "ConfigEncode.Volume",IDC_STATIC14,8,92,21,10,NOT 
+                    WS_VISIBLE
+    PUSHBUTTON      "OneClick.Default",IDC_BUTTONPOLL,71,108,33,15
+    CONTROL         "Slider1",IDC_SLIDERDBD,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,32,72,10
+    CONTROL         "Slider1",IDC_SLIDERBHD,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,52,72,10
+    CONTROL         "Slider1",IDC_SLIDERSD,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,72,72,10
+    CONTROL         "Slider1",IDC_SLIDERYL,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,36,92,72,10
+    CONTROL         "Slider1",IDC_SLIDERLD,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,12,72,10
+    PUSHBUTTON      "Button1",IDC_BUTTON1,11,108,41,14,NOT WS_VISIBLE
+END
+
+IDD_VIDEO_WND DIALOGEX 0, 0, 187, 98
+STYLE WS_CHILD | WS_BORDER
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_REMOTE_PLAYBACK DIALOGEX 0, 0, 519, 313
+STYLE WS_CHILD | WS_SYSMENU
+FONT 10, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    RTEXT           "Desktop.Device",IDC_STATIC,6,5,52,8
+    COMBOBOX        IDC_COMBO_DEVICE,63,2,114,174,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "PlayBack.Channel",IDC_STATIC,181,6,30,8
+    COMBOBOX        IDC_COMBO_CHANNEL,215,4,38,85,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "PlayBack.Type",IDC_STATIC,261,7,24,8
+    COMBOBOX        IDC_COMBO_TYPE,289,4,80,140,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    RTEXT           "HDDInfo.StartTime",IDC_STATIC,3,25,55,8
+    CONTROL         "DateTimePicker1",IDC_DATE_BEGIN,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,63,21,56,14
+    CONTROL         "DateTimePicker1",IDC_TIME_BEGIN,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,123,21,53,
+                    14
+    LTEXT           "HDDInfo.EndTime",IDC_STATIC,189,22,35,8
+    CONTROL         "DateTimePicker1",IDC_DATE_END,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_TABSTOP,226,21,56,14
+    CONTROL         "DateTimePicker1",IDC_TIME_END,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,301,20,53,
+                    14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,0,52,233,216
+    PUSHBUTTON      "PlayBack.Search",IDC_SEARCH,132,274,44,14
+    PUSHBUTTON      "PlayBack.Download",IDC_DOWNLOAD,191,274,44,14
+    GROUPBOX        "",IDC_STATIC_VIDEO,242,49,270,220,BS_FLAT
+    PUSHBUTTON      "PlayBack.Play",IDC_PLAY,385,274,25,14
+    PUSHBUTTON      "PlayBack.Stop",IDC_STOP,411,274,25,14
+    PUSHBUTTON      "PlayBack.Fast",IDC_FAST,461,274,25,14
+    PUSHBUTTON      "PlayBack.Slow",IDC_SLOW,487,274,25,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,0,294,234,14
+    PUSHBUTTON      "PlayBack.Pause",IDC_PAUSE,436,274,25,14
+    CONTROL         "PlayBack.ByTime",IDC_CHECK_TIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,129,40,61,10
+    CONTROL         "PlayBack.ByName",IDC_CHECK_NAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,65,40,59,10
+    RTEXT           "PlayBack.PlayBackType",IDC_STATIC,4,40,55,8
+    PUSHBUTTON      "PlayBack.PageUp",IDC_PAGE_UP,2,274,44,14
+    PUSHBUTTON      "PlayBack.PageDown",IDC_PAGE_DOWN,67,274,44,14
+    PUSHBUTTON      "PlayBack.OpenAudio",IDC_BUTTON_Audio,339,274,33,14
+END
+
+IDD_DEV_CONFIG DIALOG DISCARDABLE  0, 0, 253, 287
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设备配置"
+FONT 10, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,9,1,191,144,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_KEYBOARD_DLG DIALOGEX 0, 0, 141, 289
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "0",ID_KEY_0,6,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "1",ID_KEY_1,26,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "2",ID_KEY_2,46,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "3",ID_KEY_3,66,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "4",ID_KEY_4,86,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "5",ID_KEY_5,106,6,17,10,BS_FLAT
+    DEFPUSHBUTTON   "6",ID_KEY_6,6,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "7",ID_KEY_7,26,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "8",ID_KEY_8,46,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "9",ID_KEY_9,66,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "10",ID_KEY_10,86,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "11",ID_KEY_11,106,17,17,10,BS_FLAT
+    DEFPUSHBUTTON   "12",ID_KEY_12,6,28,17,10,BS_FLAT
+    DEFPUSHBUTTON   "13",ID_KEY_13,26,28,17,10,BS_FLAT
+    DEFPUSHBUTTON   "14",ID_KEY_14,46,28,17,10,BS_FLAT
+    DEFPUSHBUTTON   "15",ID_KEY_15,66,28,17,10,BS_FLAT
+    DEFPUSHBUTTON   "16",ID_KEY_16,86,28,17,10,BS_FLAT
+    DEFPUSHBUTTON   "-/--",ID_KEY_10PlUS,106,28,17,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Esc",IDC_KEY_ESC,78,45,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Enter",IDC_KEY_ENTER,55,45,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Menu",IDC_KEY_MENU,6,45,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Up",IDC_KEY_UP,55,60,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Left",IDC_KEY_LEFT,31,69,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Right",IDC_KEY_RIGHT,78,69,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Down",IDC_KEY_DOWN,55,78,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Split",IDC_KEY_SPLIT,6,89,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Split1",IDC_KEY_SPLIT_1,46,89,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Split4",IDC_KEY_SPLIT_4,86,89,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Split8",IDC_KEY_SPLIT_8,6,101,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Split9",IDC_KEY_SPLIT_9,46,101,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Split16",IDC_KEY_SPLIT_16,86,101,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Play",IDC_KEY_PLAY,6,116,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Stop",IDC_KEY_STOP,46,116,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Back",IDC_KEY_BACK,86,116,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Fast",IDC_KEY_FAST,6,127,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Slow",IDC_KEY_SLOW,46,127,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Next",IDC_KEY_NEXT,86,127,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Prev",IDC_KEY_PREV,6,138,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Search",IDC_KEY_SEARCH,6,150,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Record",IDC_KEY_RECORD,46,150,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Info",IDC_KEY_INFO,86,150,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Alarm",IDC_KEY_ALARM,6,159,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Backup",IDC_KEY_BACKUP,46,159,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Shutdown",IDC_KEY_SHUTDOWN,86,159,39,10,
+                    BS_LEFT | BS_FLAT
+    PUSHBUTTON      "Keyboard.PtzUp",IDC_KEY_PTZ_UP,47,182,37,9,BS_FLAT
+    PUSHBUTTON      "Keyboard.PtzLeft",IDC_KEY_PTZ_LEFT,13,192,35,9,BS_FLAT
+    PUSHBUTTON      "Keyboard.PtzRight",IDC_KEY_PTZ_RIGHT,83,192,35,9,
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.PtzDown",IDC_KEY_PTZ_DOWN,47,202,35,9,
+                    BS_CENTER | BS_FLAT
+    PUSHBUTTON      "Keyboard.Tele",IDC_KEY_ZOOM_TELE,30,212,24,9,BS_FLAT
+    PUSHBUTTON      "Keyboard.Wide",IDC_KEY_ZOOM_WIDE,83,212,24,9,BS_FLAT
+    LTEXT           "Keyboard.Zoom",IDC_STATIC_ZOOM,59,212,17,8
+    PUSHBUTTON      "Keyboard.Large",IDC_KEY_IRIS_LARGE,30,223,24,9,BS_FLAT
+    PUSHBUTTON      "Keyboard.Small",IDC_KEY_IRIS_SMALL,83,223,24,9,BS_FLAT
+    LTEXT           "Keyboard.Iris",IDC_STATIC_IRIS,59,223,17,8
+    PUSHBUTTON      "Keyboard.Far",IDC_KEY_FOCUS_FAR,30,234,24,9,BS_FLAT
+    PUSHBUTTON      "Keyboard.Near",IDC_KEY_FOCUS_NEAR,83,234,24,9,BS_FLAT
+    LTEXT           "Keyboard.Focus",IDC_STATIC_FOCUS,59,233,17,8
+    PUSHBUTTON      "Keyboard.PTZ",IDC_KEY_PTZ,46,171,39,10,BS_FLAT
+    PUSHBUTTON      "Shift",IDC_KEY_SHIFT,103,45,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.Func",IDC_KEY_FUNC,31,45,21,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.SPreset",IDC_KEY_SET_PRESET,6,244,54,10,
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.GPreset",IDC_KEY_GO_PRESET,71,244,54,10,
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.DPreset",IDC_KEY_DEL_PRESET,38,255,54,10,
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.Tour",IDC_KEY_AUTO_TOUR,6,267,39,10,BS_FLAT
+    PUSHBUTTON      "Keyboard.AutoPan",IDC_KEY_AUTO_PAN,46,267,39,10,BS_LEFT | 
+                    BS_FLAT
+    PUSHBUTTON      "Keyboard.AutoScan",IDC_KEY_AUTO_SCAN,86,267,39,10,
+                    BS_FLAT
+END
+
+IDD_DLG_NETALARM DIALOGEX 0, 0, 95, 72
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "LogType.EventStart",IDC_BTN_START,4,42,40,14,BS_LEFT
+    PUSHBUTTON      "LogType.EventStop",IDC_BTN_STOP,49,42,40,14,BS_LEFT
+    LTEXT           "ConfigManage.CAM",IDC_STATIC,12,19,30,8
+    COMBOBOX        IDC_CMB_CHANNEL,46,17,34,104,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CRUISEEDIT DIALOGEX 0, 0, 271, 132
+STYLE DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "点间巡航"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "CruiseEdit.PTZTour",IDC_STATIC,78,16,37,12
+    LTEXT           "CruiseEdit.Preset",IDC_STATIC,79,42,24,12
+    COMBOBOX        IDC_COMBO2,124,42,68,59,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "CruiseEdit.AddPreset",IDC_BUTTONADDPRESENT,28,78,55,14
+    PUSHBUTTON      "CruiseEdit.DelPreset",IDC_BUTTONDELETEPRESENT,110,79,55,
+                    14
+    PUSHBUTTON      "CruiseEdit.ClearTour",IDC_BUTTONDELETECRUISE,189,79,55,
+                    14
+    EDITTEXT        IDC_EDIT1,124,14,68,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DLG_TAB_PLAYBACK DIALOGEX 0, 0, 611, 308
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,0,0,610,308
+END
+
+IDD_DLG_LOCALPLAYBACK DIALOG DISCARDABLE  0, 0, 578, 314
+STYLE DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "PlayBack.OpenFile",IDC_BUTTON_OPEN,108,288,50,14
+    PUSHBUTTON      "PlayBack.Play",IDC_BUTTON_PLAY,167,288,50,14
+    PUSHBUTTON      "PlayBack.Stop",IDC_BUTTON_STOP,230,288,50,14
+    PUSHBUTTON      "PlayBack.Pause",IDC_BUTTON_PAUSE,294,288,50,14
+    PUSHBUTTON      "PlayBack.Fast",IDC_BUTTON_FAST,355,288,50,14
+    PUSHBUTTON      "PlayBack.Slow",IDC_BUTTON_SLOW,415,288,50,14
+    GROUPBOX        "",IDC_STATIC_PLAYWINDOW,104,2,366,269,BS_FLAT
+    CONTROL         "Slider1",IDC_SLIDERFILE,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,104,274,366,10
+END
+
+IDD_DIALOG_IPEdit DIALOG DISCARDABLE  0, 0, 187, 163
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Upgrade.EditDevice"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "DeviceManage.Modify",IDOK,23,135,50,14
+    PUSHBUTTON      "DeviceManage.Cancel",IDCANCEL,100,135,50,14
+    LTEXT           "ConfigNet.IPaddr",IDC_STATIC,23,14,45,8
+    LTEXT           "ConfigNet.NetMask",IDC_STATIC,23,37,45,8
+    LTEXT           "ConfigNet.DefaultGateWay",IDC_STATIC,23,57,46,8
+    LTEXT           "ConfigNet.HttpPort",IDC_STATIC,23,75,45,8
+    LTEXT           "ConfigNet.TcpPort",IDC_STATIC,23,92,45,8
+    LTEXT           "DeviceManage.MAC",IDC_STATIC,23,112,46,8
+    CONTROL         "IPAddress1",IDC_IPADDRESS_IP,"SysIPAddress32",
+                    WS_TABSTOP,70,12,100,15
+    CONTROL         "IPAddress1",IDC_IPADDRESS_Mask,"SysIPAddress32",
+                    WS_TABSTOP,70,32,100,15
+    CONTROL         "IPAddress1",IDC_IPADDRESS_Gateway,"SysIPAddress32",
+                    WS_TABSTOP,70,52,100,15
+    EDITTEXT        IDC_EDIT_Http,70,72,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Tcp,70,91,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Mac,70,110,89,14,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_DLG_TESTCOVER DIALOG DISCARDABLE  0, 0, 218, 146
+STYLE WS_CHILD
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OneClick.OK",IDOK,47,117,50,14
+    PUSHBUTTON      "OneClick.Cancel",IDCANCEL,110,117,50,14
+    LTEXT           "PlayBack.SrcCoverFile",IDC_STATIC,16,26,46,11
+    LTEXT           "PlayBack.DesCoverFile",IDC_STATIC,15,46,47,11
+    EDITTEXT        IDC_EDIT_SrcPath,68,25,94,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT_DesPath,68,45,94,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "AlarmManage.Browse",IDC_BUTTON1,170,23,33,14,BS_LEFT
+    PUSHBUTTON      "AlarmManage.Browse",IDC_BUTTON2,170,43,35,14,BS_LEFT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "ClientDemo Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ClientDemo\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "OriginalFilename", "ClientDemo.EXE\0"
+            VALUE "ProductName", "ClientDemo 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CLIENTDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+    END
+
+    IDD_CONFIG_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 256
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_DEVICE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+    END
+
+    IDD_PTZ_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_COLOR_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    IDD_VIDEO_WND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DEV_CONFIG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 251
+    END
+
+    IDD_KEYBOARD_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 134
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_CRUISEEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 264
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+
+    IDD_DLG_TAB_PLAYBACK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 610
+    END
+
+    IDD_DLG_LOCALPLAYBACK, DIALOG
+    BEGIN
+        RIGHTMARGIN, 571
+    END
+
+    IDD_DIALOG_IPEdit, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_DLG_TESTCOVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CLIENTDEMO_DIALOG DLGINIT
+BEGIN
+    IDC_COMBOWNDNUM, 0x403, 2, 0
+0x0031, 
+    IDC_COMBOWNDNUM, 0x403, 2, 0
+0x0034, 
+    IDC_COMBOWNDNUM, 0x403, 2, 0
+0x0039, 
+    IDC_COMBOWNDNUM, 0x403, 3, 0
+0x3631, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ClientDemo(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_PROMPT DIALOGEX 0, 0, 217, 25
+STYLE DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Upgrade.Searching",IDC_STATIC_MSG,14,10,130,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_DLG_PROMPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 18
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ClientDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

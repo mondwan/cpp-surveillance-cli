@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ClientDemo.res" /d "_DEBUG" "F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ClientDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP129.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /U "_DEBUG" /FR"Debug/" /Fp"Debug/ClientDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ClientDemo.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ClientDemoDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ColorButton.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ColorDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\CruiseEdit.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\DeviceEdit.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\DeviceEditDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\DialogKeyBoard.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\DlgCoverFile.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\IPEdit.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\LocalPlayback.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\Markup.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\multilanguage.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\NetAlarmDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\PromptDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\PTZDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\RemotePlaybackDlg.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\TabPlayback.cpp"
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\VideoWnd.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP129.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /U "_DEBUG" /FR"Debug/" /Fp"Debug/ClientDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClientDemo2.pdb" /debug /machine:I386 /out:"../bin/ClientDemo2.exe" /pdbtype:sept 
+".\Debug\ClientDemo.obj"
+".\Debug\ClientDemoDlg.obj"
+".\Debug\ColorButton.obj"
+".\Debug\ColorDlg.obj"
+".\Debug\CruiseEdit.obj"
+".\Debug\DeviceEdit.obj"
+".\Debug\DeviceEditDlg.obj"
+".\Debug\DialogKeyBoard.obj"
+".\Debug\DlgCoverFile.obj"
+".\Debug\IPEdit.obj"
+".\Debug\LocalPlayback.obj"
+".\Debug\Markup.obj"
+".\Debug\multilanguage.obj"
+".\Debug\NetAlarmDlg.obj"
+".\Debug\PromptDlg.obj"
+".\Debug\PTZDlg.obj"
+".\Debug\RemotePlaybackDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TabPlayback.obj"
+".\Debug\VideoWnd.obj"
+".\Debug\ClientDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+F:\SVN文件夹\Trunk\发布目录\SDK\NETSDK\Chinese\DemoCode\ConfigDemo\ClientDemo.rc(725) : fatal error RC1015: cannot open include file 'res\ClientDemo.rc2'.
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+ClientDemo2.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

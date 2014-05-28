@@ -1,0 +1,144 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28BCED0B-63CE-430C-BBB8-EFC0F621C586}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientDemo</RootNamespace>
+    <AssemblyName>ClientDemo</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDevForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDevForm.Designer.cs">
+      <DependentUpon>AddDevForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientDemo.Designer.cs">
+      <DependentUpon>ClientDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevForm.Designer.cs">
+      <DependentUpon>DevForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayBackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayBackForm.Designer.cs">
+      <DependentUpon>PlayBackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PTZform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PTZform.Designer.cs">
+      <DependentUpon>PTZform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transparent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transparent.Designer.cs">
+      <DependentUpon>Transparent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddDevForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddDevForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientDemo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClientDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DevForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayBackForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlayBackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTZform.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PTZform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transparent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Transparent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VideoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VideoForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoForm.Designer.cs">
+      <DependentUpon>VideoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XMSDK.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

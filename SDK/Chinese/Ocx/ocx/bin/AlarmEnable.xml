@@ -1,0 +1,24 @@
+<DATAROOT>
+	<ALARMSET>
+		<IALARM AlarmType="6" Enable="1" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath="C:\record"/>
+		<IALARM AlarmType="7" Enable="1" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath="C:\BMP"/>
+		<IALARM AlarmType="8" Enable="0" Ignoredsec="0" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="9" Enable="0" Ignoredsec="0" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="0" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="1" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="2" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="3" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="4" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+		<IALARM AlarmType="5" Enable="0" Ignoredsec="5" IsWatch="0" IsSound="0" soundPath=""/>
+	</ALARMSET>
+	<DEVINFO>
+		<DEV id="1">
+			<IALARMCHANNEL channel="2"/>
+			<IALARMCHANNEL channel="1"/>
+			<IALARMCHANNEL channel="0"/>
+			<IALARMCHANNEL channel="3"/>
+			<IALARMCHANNEL channel="5"/>
+			<IALARMCHANNEL channel="7"/>
+		</DEV>
+	</DEVINFO>
+</DATAROOT>
