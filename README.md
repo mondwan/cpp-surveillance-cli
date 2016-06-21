@@ -22,3 +22,10 @@ However, development is still on going....
 * Demo codes sources from XionMait
 
 [SDK]: http://www.xiongmaitech.com/en/index.php/service/down_detail/83/185
+
+# ONVIF
+
+According to the wiki [here][wiki], the IPC conforms [ONVIF interfaces][onvif] (Not yet verified)
+
+[wiki]: http://wiki.xm030.com/index.php/%E7%B3%BB%E7%BB%9F%E7%89%88%E6%9C%AC%E5%90%8E%E7%BC%80%E8%AF%B4%E6%98%8E
+[onvif]: http://www.onvif.org/Documents/Specifications.aspx
