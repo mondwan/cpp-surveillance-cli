@@ -1,0 +1,394 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClientDemo5 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ClientDemo5.res" /d "NDEBUG" "E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ClientDemo5.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50B.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ClientDemo5.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmException.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmInputDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmMotion.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmOuput.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmShelter.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmVideoAnalyse.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AlarmVLostDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\AreaSelectDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ChannelNameSet.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ChannelNameSet2.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ClientDemo5.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ClientDemo5Dlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigAlarm.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigChannel.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigComm.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigDigitalChannel.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigNetServer.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigNetwork.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigOutput.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigPTZ.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigRecord.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigServer.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ConfigVehicle.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\CoverAreaDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\CoverSetDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DigitalChannelDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgChannelMode.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgChannelStatus.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgDiskPartation.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgForbidDirection1.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgOscRuleArea.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\DlgRuleArea.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\LogInfoDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\motiondetect.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\multilanguage.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetPre.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServer3G.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerALARM.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerARSP.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerDAS.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerDDNS.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerDNS.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerEmail.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerFTP.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerGodEye.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerIPFilter.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerMobile.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerMultiMedia.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerNAT.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerNetInfo.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerNTP.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerPMS.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerPPPOE.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerRtsp.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerSHISOU.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerSHORTMSG.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerUPNP.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerVVEye.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerWIFI.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerXINGWANG.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NewCtrl.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\PeriodTimeSetDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\PtzLinkDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\RemoteChannelDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\Security.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\SnapStorageDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\StateSort.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\SysInfoVersion.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\SysSettingCamera.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\SysSettingUserManager.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\TimeLapseSet.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\TimeLineShowWnd.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\TitleSetDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\ToolManagerHardDisk.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\UserAddDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\UserAddGroupDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\UserDeleteGroupDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\UserModifyDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\UserModifyPswDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\VehicleData.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\VehicleState.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\VideoAnalyseSetDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\VideoAVDRuleSetDlg.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\VideoOSCRuleSetDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50B.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50C.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/ClientDemo5.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50D.tmp" with contents
+[
+WSOCK32.LIB /nologo /stack:0x200000,0x200000 /subsystem:windows /incremental:no /pdb:"Release/ConfigDemo.pdb" /debug /machine:I386 /out:"../Bin/ConfigDemo.exe" 
+".\Release\AlarmException.obj"
+".\Release\AlarmInputDlg.obj"
+".\Release\AlarmMotion.obj"
+".\Release\AlarmOuput.obj"
+".\Release\AlarmShelter.obj"
+".\Release\AlarmVideoAnalyse.obj"
+".\Release\AlarmVLostDlg.obj"
+".\Release\AreaSelectDlg.obj"
+".\Release\ChannelNameSet.obj"
+".\Release\ChannelNameSet2.obj"
+".\Release\ClientDemo5.obj"
+".\Release\ClientDemo5Dlg.obj"
+".\Release\ConfigAlarm.obj"
+".\Release\ConfigChannel.obj"
+".\Release\ConfigComm.obj"
+".\Release\ConfigDigitalChannel.obj"
+".\Release\ConfigNetServer.obj"
+".\Release\ConfigNetwork.obj"
+".\Release\ConfigOutput.obj"
+".\Release\ConfigPTZ.obj"
+".\Release\ConfigRecord.obj"
+".\Release\ConfigServer.obj"
+".\Release\ConfigVehicle.obj"
+".\Release\CoverAreaDlg.obj"
+".\Release\CoverSetDlg.obj"
+".\Release\DigitalChannelDlg.obj"
+".\Release\DlgChannelMode.obj"
+".\Release\DlgChannelStatus.obj"
+".\Release\DlgDiskPartation.obj"
+".\Release\DlgForbidDirection1.obj"
+".\Release\DlgOscRuleArea.obj"
+".\Release\DlgRuleArea.obj"
+".\Release\LogInfoDlg.obj"
+".\Release\motiondetect.obj"
+".\Release\multilanguage.obj"
+".\Release\NetPre.obj"
+".\Release\NetServer3G.obj"
+".\Release\NetServerALARM.obj"
+".\Release\NetServerARSP.obj"
+".\Release\NetServerDAS.obj"
+".\Release\NetServerDDNS.obj"
+".\Release\NetServerDNS.obj"
+".\Release\NetServerEmail.obj"
+".\Release\NetServerFTP.obj"
+".\Release\NetServerGodEye.obj"
+".\Release\NetServerIPFilter.obj"
+".\Release\NetServerMobile.obj"
+".\Release\NetServerMultiMedia.obj"
+".\Release\NetServerNAT.obj"
+".\Release\NetServerNetInfo.obj"
+".\Release\NetServerNTP.obj"
+".\Release\NetServerPMS.obj"
+".\Release\NetServerPPPOE.obj"
+".\Release\NetServerRtsp.obj"
+".\Release\NetServerSHISOU.obj"
+".\Release\NetServerSHORTMSG.obj"
+".\Release\NetServerUPNP.obj"
+".\Release\NetServerVVEye.obj"
+".\Release\NetServerWIFI.obj"
+".\Release\NetServerXINGWANG.obj"
+".\Release\NewCtrl.obj"
+".\Release\PeriodTimeSetDlg.obj"
+".\Release\PtzLinkDlg.obj"
+".\Release\RemoteChannelDlg.obj"
+".\Release\Security.obj"
+".\Release\SnapStorageDlg.obj"
+".\Release\StateSort.obj"
+".\Release\StdAfx.obj"
+".\Release\SysInfoVersion.obj"
+".\Release\SysSettingCamera.obj"
+".\Release\SysSettingUserManager.obj"
+".\Release\TimeLapseSet.obj"
+".\Release\TimeLineShowWnd.obj"
+".\Release\TitleSetDlg.obj"
+".\Release\ToolManagerHardDisk.obj"
+".\Release\UserAddDlg.obj"
+".\Release\UserAddGroupDlg.obj"
+".\Release\UserDeleteGroupDlg.obj"
+".\Release\UserModifyDlg.obj"
+".\Release\UserModifyPswDlg.obj"
+".\Release\VehicleData.obj"
+".\Release\VehicleState.obj"
+".\Release\VideoAnalyseSetDlg.obj"
+".\Release\VideoAVDRuleSetDlg.obj"
+".\Release\VideoOSCRuleSetDlg.obj"
+".\Release\ClientDemo5.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPE50D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AlarmException.cpp
+AlarmInputDlg.cpp
+AlarmMotion.cpp
+AlarmOuput.cpp
+AlarmShelter.cpp
+AlarmVideoAnalyse.cpp
+AlarmVLostDlg.cpp
+AreaSelectDlg.cpp
+ChannelNameSet.cpp
+ChannelNameSet2.cpp
+ClientDemo5.cpp
+ClientDemo5Dlg.cpp
+ConfigAlarm.cpp
+ConfigChannel.cpp
+ConfigComm.cpp
+ConfigDigitalChannel.cpp
+ConfigNetServer.cpp
+ConfigNetwork.cpp
+ConfigOutput.cpp
+ConfigPTZ.cpp
+Generating Code...
+Compiling...
+ConfigRecord.cpp
+ConfigServer.cpp
+ConfigVehicle.cpp
+CoverAreaDlg.cpp
+CoverSetDlg.cpp
+DigitalChannelDlg.cpp
+DlgChannelMode.cpp
+DlgChannelStatus.cpp
+DlgDiskPartation.cpp
+DlgForbidDirection1.cpp
+DlgOscRuleArea.cpp
+DlgRuleArea.cpp
+LogInfoDlg.cpp
+motiondetect.cpp
+multilanguage.cpp
+NetPre.cpp
+NetServer3G.cpp
+NetServerALARM.cpp
+NetServerARSP.cpp
+NetServerDAS.cpp
+Generating Code...
+Compiling...
+NetServerDDNS.cpp
+NetServerDNS.cpp
+NetServerEmail.cpp
+NetServerFTP.cpp
+NetServerGodEye.cpp
+NetServerIPFilter.cpp
+NetServerMobile.cpp
+NetServerMultiMedia.cpp
+NetServerNAT.cpp
+NetServerNetInfo.cpp
+NetServerNTP.cpp
+NetServerPMS.cpp
+E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\ConfigDemo\NetServerPMS.cpp(59) : warning C4805: '==' : unsafe mix of type 'const bool' and type 'int' in operation
+NetServerPPPOE.cpp
+NetServerRtsp.cpp
+NetServerSHISOU.cpp
+NetServerSHORTMSG.cpp
+NetServerUPNP.cpp
+NetServerVVEye.cpp
+NetServerWIFI.cpp
+NetServerXINGWANG.cpp
+Generating Code...
+Compiling...
+NewCtrl.cpp
+PeriodTimeSetDlg.cpp
+PtzLinkDlg.cpp
+RemoteChannelDlg.cpp
+Security.cpp
+SnapStorageDlg.cpp
+StateSort.cpp
+SysInfoVersion.cpp
+SysSettingCamera.cpp
+SysSettingUserManager.cpp
+TimeLapseSet.cpp
+TimeLineShowWnd.cpp
+TitleSetDlg.cpp
+ToolManagerHardDisk.cpp
+UserAddDlg.cpp
+UserAddGroupDlg.cpp
+UserDeleteGroupDlg.cpp
+UserModifyDlg.cpp
+UserModifyPswDlg.cpp
+VehicleData.cpp
+Generating Code...
+Compiling...
+VehicleState.cpp
+VideoAnalyseSetDlg.cpp
+VideoAVDRuleSetDlg.cpp
+VideoOSCRuleSetDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF840.tmp" with contents
+[
+/nologo /o"Release/ClientDemo5.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\AlarmException.sbr"
+".\Release\AlarmInputDlg.sbr"
+".\Release\AlarmMotion.sbr"
+".\Release\AlarmOuput.sbr"
+".\Release\AlarmShelter.sbr"
+".\Release\AlarmVideoAnalyse.sbr"
+".\Release\AlarmVLostDlg.sbr"
+".\Release\AreaSelectDlg.sbr"
+".\Release\ChannelNameSet.sbr"
+".\Release\ChannelNameSet2.sbr"
+".\Release\ClientDemo5.sbr"
+".\Release\ClientDemo5Dlg.sbr"
+".\Release\ConfigAlarm.sbr"
+".\Release\ConfigChannel.sbr"
+".\Release\ConfigComm.sbr"
+".\Release\ConfigDigitalChannel.sbr"
+".\Release\ConfigNetServer.sbr"
+".\Release\ConfigNetwork.sbr"
+".\Release\ConfigOutput.sbr"
+".\Release\ConfigPTZ.sbr"
+".\Release\ConfigRecord.sbr"
+".\Release\ConfigServer.sbr"
+".\Release\ConfigVehicle.sbr"
+".\Release\CoverAreaDlg.sbr"
+".\Release\CoverSetDlg.sbr"
+".\Release\DigitalChannelDlg.sbr"
+".\Release\DlgChannelMode.sbr"
+".\Release\DlgChannelStatus.sbr"
+".\Release\DlgDiskPartation.sbr"
+".\Release\DlgForbidDirection1.sbr"
+".\Release\DlgOscRuleArea.sbr"
+".\Release\DlgRuleArea.sbr"
+".\Release\LogInfoDlg.sbr"
+".\Release\motiondetect.sbr"
+".\Release\multilanguage.sbr"
+".\Release\NetPre.sbr"
+".\Release\NetServer3G.sbr"
+".\Release\NetServerALARM.sbr"
+".\Release\NetServerARSP.sbr"
+".\Release\NetServerDAS.sbr"
+".\Release\NetServerDDNS.sbr"
+".\Release\NetServerDNS.sbr"
+".\Release\NetServerEmail.sbr"
+".\Release\NetServerFTP.sbr"
+".\Release\NetServerGodEye.sbr"
+".\Release\NetServerIPFilter.sbr"
+".\Release\NetServerMobile.sbr"
+".\Release\NetServerMultiMedia.sbr"
+".\Release\NetServerNAT.sbr"
+".\Release\NetServerNetInfo.sbr"
+".\Release\NetServerNTP.sbr"
+".\Release\NetServerPMS.sbr"
+".\Release\NetServerPPPOE.sbr"
+".\Release\NetServerRtsp.sbr"
+".\Release\NetServerSHISOU.sbr"
+".\Release\NetServerSHORTMSG.sbr"
+".\Release\NetServerUPNP.sbr"
+".\Release\NetServerVVEye.sbr"
+".\Release\NetServerWIFI.sbr"
+".\Release\NetServerXINGWANG.sbr"
+".\Release\NewCtrl.sbr"
+".\Release\PeriodTimeSetDlg.sbr"
+".\Release\PtzLinkDlg.sbr"
+".\Release\RemoteChannelDlg.sbr"
+".\Release\Security.sbr"
+".\Release\SnapStorageDlg.sbr"
+".\Release\StateSort.sbr"
+".\Release\SysInfoVersion.sbr"
+".\Release\SysSettingCamera.sbr"
+".\Release\SysSettingUserManager.sbr"
+".\Release\TimeLapseSet.sbr"
+".\Release\TimeLineShowWnd.sbr"
+".\Release\TitleSetDlg.sbr"
+".\Release\ToolManagerHardDisk.sbr"
+".\Release\UserAddDlg.sbr"
+".\Release\UserAddGroupDlg.sbr"
+".\Release\UserDeleteGroupDlg.sbr"
+".\Release\UserModifyDlg.sbr"
+".\Release\UserModifyPswDlg.sbr"
+".\Release\VehicleData.sbr"
+".\Release\VehicleState.sbr"
+".\Release\VideoAnalyseSetDlg.sbr"
+".\Release\VideoAVDRuleSetDlg.sbr"
+".\Release\VideoOSCRuleSetDlg.sbr"]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF840.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ConfigDemo.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

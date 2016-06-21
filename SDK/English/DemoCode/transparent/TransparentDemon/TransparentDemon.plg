@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TransparentDemon - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/TransparentDemon.res" /d "NDEBUG" "E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\TransparentDemon.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6101.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TransparentDemon.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\multilanguage.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\TransparentDemon.cpp"
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\TransparentDemonDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6101.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6102.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/TransparentDemon.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6102.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP6103.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/TransparentDemon.pdb" /machine:I386 /out:"..\..\bin\TransparentDemon.exe" 
+".\Release\multilanguage.obj"
+".\Release\StdAfx.obj"
+".\Release\TransparentDemon.obj"
+".\Release\TransparentDemonDlg.obj"
+".\Release\TransparentDemon.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP6103.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+multilanguage.cpp
+TransparentDemon.cpp
+TransparentDemonDlg.cpp
+E:\workspace (192.168.59.81)\SVN\Public\demo\SDK\transparent\TransparentDemon\TransparentDemonDlg.cpp(366) : warning C4101: 'data' : unreferenced local variable
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+TransparentDemon.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
